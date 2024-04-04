@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+
+    <!---css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!---js-->
+    <script src="file.js"></script>
+
+    <!--jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--box icon-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/animations.min.css"
+      integrity="sha512-GKHaATMc7acW6/GDGVyBhKV3rST+5rMjokVip0uTikmZHhdqFWC7fGBaq6+lf+DOS5BIO8eK6NcyBYUBCHUBXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+      integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="home" id="home_1">
+      <nav>
+        <h1 class="nav_name">SATHYA S</h1>
+
+        <ul class="home_detail">
+          <li>
+            <i class="bx bxs-home"></i><br /><a href="home.html" active-link--
+              >Home</a
+            >
+          </li>
+          <li>
+            <i class="bx bxs-quote-alt-left"></i><br /><a href="about.html"
+              >About</a
+            >
+          </li>
+          <li>
+            <i class="bx bx-world"></i><br /><a href="skill.html">Skill</a>
+          </li>
+          <li>
+            <i class="bx bxs-contact"></i><br /><a href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="home_container">
+        <!-- <img src="./Photograph.jpg" alt="" class="home_img" />-->
+
+        <div class="home_data">
+          <h1 class="home_h1">
+            Hello,my name is<br /><span>S</span>AT<span>HYA</span>
+          </h1>
+          <p class="home_p">And i'm a <span class="input"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Web Designer.", "Python Developer.", "Freelancer."],
+        typeSpeed: 120,
+        backSpeed: 110,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
